@@ -6,16 +6,40 @@
 //     $("#hide01").show();
 //   });
 // });
+$(document).ready(function(){
+  $(".show1").click(function(){
+    $(".hide1").toggle();
+  });
+  $(".show2").click(function(){
+    $(".hide2").toggle();
+  });
+  $(".show3").click(function(){
+    $(".hide3").toggle();
+  });
+  $(".show4").click(function(){
+    $(".hide4").toggle();
+  });
+  $(".show5").click(function(){
+    $(".hide5").toggle();
+  });
+  $(".show6").click(function(){
+    $(".hide6").toggle();
+  });  
+  $(".show7").click(function(){
+    $(".hide7").toggle();
+  });
+});
+
 
 $(document).ready(function(){
   $(".show01").click(function(){
     $(".hide01").toggle();
   });
-    $(".show02").click(function(){
-  $(".hide02").toggle();
+  $(".show02").click(function(){
+    $(".hide02").toggle();
   });
-    $(".show03").click(function(){
-  $(".hide03").toggle();
+  $(".show03").click(function(){
+    $(".hide03").toggle();
   });
   $(".show04").click(function(){
     $(".hide04").toggle();
