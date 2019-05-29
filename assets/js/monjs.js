@@ -65,8 +65,11 @@ $(document).ready(function(){
   $(".show11").click(function(){
     $(".hide11").toggle();
   });
-  $(".show12").click(function(){
-    $(".hide12").toggle();
+  $(".show12a").click(function(){
+    $(".hide12a").toggle();
+  });
+  $(".show28").click(function(){
+    $(".hide28").toggle();
   });
   $(".show13").click(function(){
     $(".hide13").toggle();
